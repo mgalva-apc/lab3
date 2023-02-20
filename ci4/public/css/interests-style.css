@@ -1,0 +1,529 @@
+@font-face{font-family: Cream; 
+    src: url(../fonts/cream-DEMO.otf);
+    src: url(../fonts/cream-DEMO.ttf);
+}
+
+@font-face{font-family:LocalBrewerySans;
+    src: url(../fonts/LocalBrewerySans.otf);
+    src: url(../fonts/LocalBrewerySans.ttf);
+}
+
+@font-face{font-family:Cabriole;
+    src: url(../fonts/CabrioleDemoBold.ttf);
+    src: url(../fonts/CabrioleDemoBoldItalic.ttf);
+    src: url(../fonts/CabrioleDemoCondensed.ttf);
+    src: url(../fonts/CabrioleDemoItalic.ttf);
+    src: url(../fonts/CabrioleDemoLight.ttf);
+    src: url(../fonts/CabrioleDemoLightItalic.ttf);
+    src: url(../fonts/CabrioleDemoRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../media/berry-bg.png");
+    overflow-x: hidden; 
+}
+
+div#navibar {
+    background-image: url("../media/navibar-design.png");
+    background-size:cover;
+    display: inline-block;
+    width: 100vw;
+    min-width: 100vw;
+    height: 9.7vw;
+    min-height:9.7;
+    position: sticky;
+    top:0;
+    padding-bottom: -1vw;
+    z-index:3;
+    border-bottom: 10px white solid;
+}
+
+div#leftie img{
+    width:8.7vw;
+}
+  
+div#leftie {
+    float: left;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+div#leftie h2 {
+    float: right;
+    padding-top: 1.3vw;
+    font-family:'Cream';
+    font-size:2.3vw;
+}
+
+div#leftie span {
+    color:white;
+}
+  
+div#rightie {
+    float: right;
+    padding-top: 2vw;
+    font-size: 1.28vw;
+}
+
+div#rightie a:link{
+    font-family:'LocalBrewerySans';
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:hover{
+    font-family:'LocalBrewerySans';
+    color: red;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:visited{
+    font-family:'LocalBrewerySans';
+    color: purple;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie img#indicator{
+    margin-right:55px;
+}
+
+div#rightie img{
+    width: 5.4vw;
+}
+
+div#berry-pic img{
+    width: 38vw;
+    position: absolute;
+    z-index: 2;
+    right: 6vw;
+}
+
+div#content1 {
+    font-family: 'Cabriole';
+    background-image: url("../media/bg-try.png");
+    background-size: cover;
+    margin-top: 2.2vw;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-bottom: 1vw;
+    height: 49vh;
+}
+
+div#content1 span{
+    font-family: 'Cream';
+}
+
+div#content1 h2 {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+div#content1 p{
+    font-size: 1.2vw;
+}
+
+button#berry-button1 {
+    font-family: 'Cream';
+    font-size: 1.5vw;
+    background-color: rgba(197, 247, 242, 1);
+    margin-top: 2vw;
+    width: 15vw;
+    border: 3px rgba(255, 138, 140, 1) dotted;
+    border-radius: 15%;
+    margin-left: 18vw;
+    margin-top: -0.30vw;
+    cursor: pointer;
+}
+
+img#berry-cancel{
+    cursor: pointer;
+}
+
+.berry-modal {
+    position: sticky;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    padding-top: 0.1vw;
+    overflow: auto;
+    background-image: url("../media/desktoptry.png");
+    background-size: 95.7vw;
+}
+
+.berry-modal::backdrop {
+    background: linear-gradient(45deg, red, blue);
+    opacity: 0.3;
+}
+
+div#header1{
+    display: flex;
+    padding-left: 77vw;
+    border-radius:5%;
+}
+
+div#header1 img{
+    width: 5vw;
+}
+
+div#header1 p{
+    font-size:1.2vw;
+    font-family:'LocalBrewerySans';
+}
+
+div#contenthere {
+    display: flex;
+    gap: 0vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: -3vw;
+    padding-top: 2vw;
+    padding-bottom: 2.8vw;
+    font-family: 'Cream';
+}
+
+div#berry-slidebox {
+    position: relative;
+}
+
+div#contenthere img#slideshow-frame{
+    width: 48.7vw;
+    height: 33vw;
+}
+
+.berry-vids {
+    z-index:1;
+    position: absolute;
+    top: 3.57vw;
+    left: 0.65vw;
+    border-radius:1%;
+    border: 2px #8bd4c4 solid;
+    object-fit: cover;
+    width:47vw;
+    height: 25vw;
+    opacity:1;
+    transition: opacity 1s ease-out;
+}
+
+div#berry-slidebar {
+    background-color:beige;
+    margin: 2.5vw;
+}
+
+.slidebar-content{
+    background-image:url("../media/berry-gridbrow.png");
+    border-radius: 3%;
+    margin: 1vw;
+    padding-bottom: 2vw;
+    opacity: 0.8;
+    z-index:1;
+    position: absolute;
+    opacity:1;
+    transition: opacity 1s ease-out;
+    object-fit: cover;
+    font-size: 1.2vw;
+    margin: 2vw;
+}
+
+.slidebar-content img{
+    padding-left: 3vw;
+    margin-top: -7vw;
+    margin-bottom: -3vw;
+    width: 27vw;
+}
+
+.slidebar-content p{
+    font-size: 1.2vw;
+    margin: 2vw;
+    text-align: justify;
+    color: white;
+}
+
+div#arrow-buttons{
+    display: flex;
+    gap: 3vw;
+    position: absolute;
+    top: 4vw;
+    left: 56vw;
+}
+
+div#arrow-buttons img#left{
+    width: 4vw;
+    z-index: 3;
+    cursor: pointer;
+}
+div#arrow-buttons img#right{
+    width: 4vw;
+    z-index: 3;
+    cursor: pointer;
+}
+
+div#header2 {
+    background-image:url("../media/header2.png");
+    font-family: 'Cabriole';
+    font-size: 2vw;
+    margin-top: -2.5vw;
+    padding-left: 3vw;
+}
+
+div#header2 span{
+    font-family:'Cream';
+}
+
+div#content2{
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-family:'Cream';
+}
+
+div#content2 img{
+    width: 14vw;
+}
+
+.container{
+    background-image: linear-gradient(to bottom right, rgba(255, 229, 229, 0.85), rgba(229, 246, 255, 0.85));
+    padding: 3.5vw;
+    border-radius: 20%;
+}
+
+div#layer1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+div#layer2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-top: 2vw;
+}
+
+div#img-cont{
+    position:relative;
+    display: flex;
+    overflow: hidden;
+}
+
+div#text{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    bottom:0;
+    background-color: rgba(216, 84, 84, 0.9);
+    padding: 0.2vw;
+    color: white;
+    transition: height 0.25s ease-in-out;
+}
+
+div#text h2{
+    font-size: 1.2vw;
+}
+
+div#text p{
+    font-size: 0.85vw;
+    text-align: justify;
+}
+
+div#img-cont:hover > div#text {
+    height: 100%;
+}
+
+div#berry-pic2 img{
+    width: 38vw;
+    position: absolute;
+    z-index: 2;
+    right: 6vw;
+}
+
+div#content3 {
+    font-family: 'Cabriole';
+    background-image: url("../media/bg-try2.png");
+    background-size: cover;
+    margin-top: 2.2vw;
+    padding-top: 2vw;
+    padding-left: 5vw;
+    padding-bottom: 1vw;
+    height: 49vh;
+}
+
+div#content3 span{
+    font-family: 'Cream';
+}
+
+div#content3 h2 {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+div#content3 p{
+    font-size: 1.2vw;
+}
+
+button#berry-button2 {
+    font-family: 'Cream';
+    font-size: 1.5vw;
+    background-color: rgba(255, 138, 140, 1);
+    margin-top: 2vw;
+    width: 15vw;
+    border: 3px rgba(138, 30, 30, 1) dotted;
+    border-radius: 15%;
+    margin-left: 18vw;
+    margin-top: -0.30vw;
+    cursor: pointer;
+}
+
+img#berry-cancel2{
+    cursor: pointer;
+}
+
+.berry-modal2 {
+    position: sticky;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    padding-top: 0.1vw;
+    overflow: auto;
+    background-image: url("../media/desktoptry2.png");
+    background-size: 95.7vw;
+}
+
+.berry-modal2::backdrop {
+    background: linear-gradient(45deg, purple, pink);
+    opacity: 0.3;
+}
+
+div#header3{
+    display: flex;
+    padding-left: 77vw;
+    border-radius:5%;
+}
+
+div#header3 img{
+    width: 5vw;
+}
+
+div#header3 p{
+    font-size:1.2vw;
+    font-family:'LocalBrewerySans';
+}
+
+div#contenthere2 {
+    display: flex;
+    gap: 0vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: -3vw;
+    padding-top: 2vw;
+    padding-bottom: 2.8vw;
+    font-family: 'Cream';
+}
+
+div#berry-slidebox2 {
+    position: relative;
+}
+
+div#contenthere2 img#slideshow-frame2{
+    width: 48.7vw;
+    height: 33vw;
+}
+
+.berry-vids2 {
+    z-index:1;
+    position: absolute;
+    top: 3.57vw;
+    left: 0.65vw;
+    border-radius:1%;
+    border: 2px #8bd4c4 solid;
+    object-fit: cover;
+    width:47vw;
+    height: 25vw;
+    opacity:1;
+    transition: opacity 1s ease-out;
+}
+
+div#berry-slidebar2 {
+    background-color:beige;
+    margin: 2.5vw;
+}
+
+.slidebar-content2{
+    background-image:url("../media/berry-gridbrow.png");
+    border-radius: 3%;
+    margin: 1vw;
+    padding-bottom: 2vw;
+    opacity: 0.8;
+    z-index:1;
+    position: absolute;
+    opacity:1;
+    transition: opacity 1s ease-out;
+    object-fit: cover;
+    font-size: 1.2vw;
+    margin: 2vw;
+}
+
+.slidebar-content2 img{
+    padding-left: 3vw;
+    margin-top: -7vw;
+    margin-bottom: -3vw;
+    width: 27vw;
+}
+
+.slidebar-content2 p{
+    font-size: 1.2vw;
+    margin: 2vw;
+    text-align: justify;
+    color: white;
+}
+
+div#arrow-buttons2{
+    display: flex;
+    gap: 3vw;
+    position: absolute;
+    top: 4vw;
+    left: 56vw;
+}
+
+div#arrow-buttons2 img#left2{
+    width: 4vw;
+    z-index: 3;
+    cursor: pointer;
+}
+div#arrow-buttons2 img#right2{
+    width: 4vw;
+    z-index: 3;
+    cursor: pointer;
+}
+
+div#berry-logofoot {
+    display: flex;
+    justify-content: center;
+    gap:70vw;
+    font-family: 'Cream';
+}
+
+div#berry-logofoot img{
+    margin-bottom: -4vw;
+}
+
+div#berry-logofoot span{
+    color:mediumvioletred;
+}
+
+div#berry-webprog {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+}
+
+div#straw-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

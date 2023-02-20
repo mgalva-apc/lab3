@@ -1,0 +1,176 @@
+@font-face{font-family: Cream; 
+    src: url(../fonts/cream-DEMO.otf);
+    src: url(../fonts/cream-DEMO.ttf);
+}
+
+@font-face{font-family:LocalBrewerySans;
+    src: url(../fonts/LocalBrewerySans.otf);
+    src: url(../fonts/LocalBrewerySans.ttf);
+}
+
+@font-face{font-family:Cabriole;
+    src: url(../fonts/CabrioleDemoBold.ttf);
+    src: url(../fonts/CabrioleDemoBoldItalic.ttf);
+    src: url(../fonts/CabrioleDemoCondensed.ttf);
+    src: url(../fonts/CabrioleDemoItalic.ttf);
+    src: url(../fonts/CabrioleDemoLight.ttf);
+    src: url(../fonts/CabrioleDemoLightItalic.ttf);
+    src: url(../fonts/CabrioleDemoRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../media/berry-bg.png"); 
+}
+
+div#navibar {
+    background-image: url("../media/navibar-design.png");
+    background-size:cover;
+    display: inline-block;
+    width: 100vw;
+    min-width: 100vw;
+    height: 9.7vw;
+    min-height:9.7;
+    position: sticky;
+    top:0;
+    padding-bottom: -1vw;
+    z-index:3;
+    border-bottom: 10px white solid;
+}
+
+div#leftie img{
+    width:8.7vw;
+}
+  
+div#leftie {
+    float: left;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+div#leftie h2 {
+    float: right;
+    padding-top: 1.3vw;
+    font-family:'Cream';
+    font-size:2.3vw;
+}
+
+div#leftie span {
+    color:white;
+}
+  
+div#rightie {
+    float: right;
+    padding-top: 2vw;
+    font-size: 1.28vw;
+}
+
+div#rightie a:link{
+    font-family:'LocalBrewerySans';
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:hover{
+    font-family:'LocalBrewerySans';
+    color: red;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:visited{
+    font-family:'LocalBrewerySans';
+    color: purple;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie img#indicator{
+    margin-right:55px;
+}
+
+div#rightie img{
+    width: 5.4vw;
+}
+
+div#reminder img{
+    width: 77vw;
+    padding-left: 13vw;
+}
+
+div#berry-contain {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin: 2vw;
+    font-family: 'Cabriole';
+}
+
+div#berry-contain a:link{
+    font-size: 1.8vw;
+    text-decoration: none;
+    color: mediumvioletred;
+}
+
+div#berry-contain a:hover{
+    font-weight: bold;
+    color: red;
+}
+
+div#berry-contain p{
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+div#berri-leftie{
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 2vw;
+}
+
+div#berri-leftie a:link{
+    padding-left: 15vw;
+}
+
+div#berri-rightie{
+    background-color: rgba(255, 255, 255,0.5);
+    padding: 2vw;
+}
+
+div#berri-rightie a:link{
+    padding-left: 8.5vw;
+}
+
+div#berri-rightie span{
+    font-family:'Cream';
+}
+
+div#berry-logofoot {
+    display: flex;
+    justify-content: center;
+    gap:70vw;
+    font-family: 'Cream';
+}
+
+div#berry-logofoot img{
+    margin-bottom: -4vw;
+}
+
+div#berry-logofoot span{
+    color:mediumvioletred;
+}
+
+div#berry-webprog {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+}
+
+div#straw-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

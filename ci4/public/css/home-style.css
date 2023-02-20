@@ -1,0 +1,292 @@
+@font-face{font-family: Cream; 
+    src: url(../fonts/cream-DEMO.otf);
+    src: url(../fonts/cream-DEMO.ttf);
+}
+
+@font-face{font-family:LocalBrewerySans;
+    src: url(../fonts/LocalBrewerySans.otf);
+    src: url(../fonts/LocalBrewerySans.ttf);
+}
+
+@font-face{font-family:Cabriole;
+    src: url(../fonts/CabrioleDemoBold.ttf);
+    src: url(../fonts/CabrioleDemoBoldItalic.ttf);
+    src: url(../fonts/CabrioleDemoCondensed.ttf);
+    src: url(../fonts/CabrioleDemoItalic.ttf);
+    src: url(../fonts/CabrioleDemoLight.ttf);
+    src: url(../fonts/CabrioleDemoLightItalic.ttf);
+    src: url(../fonts/CabrioleDemoRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../media/berry-bg.png"); 
+}
+
+div#navibar {
+    background-image: url("../media/navibar-design.png");
+    background-size:cover;
+    display: inline-block;
+    width: 100vw;
+    min-width: 100vw;
+    height: 9.7vw;
+    min-height:9.7;
+    position: sticky;
+    top:0;
+    padding-bottom: -1vw;
+    z-index:3;
+    border-bottom: 10px white solid;
+}
+
+div#leftie img{
+    width:8.7vw;
+}
+  
+div#leftie {
+    float: left;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+div#leftie h2 {
+    float: right;
+    padding-top: 1.3vw;
+    font-family:'Cream';
+    font-size:2.3vw;
+}
+
+div#leftie span {
+    color:white;
+}
+  
+div#rightie {
+    float: right;
+    padding-top: 2vw;
+    font-size: 1.28vw;
+}
+
+div#rightie a:link{
+    font-family:'LocalBrewerySans';
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:hover{
+    font-family:'LocalBrewerySans';
+    color: red;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:visited{
+    font-family:'LocalBrewerySans';
+    color: purple;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie img{
+    width: 5.4vw;
+}
+
+div#content1 {
+    display:flex;
+    justify-content: center;
+}
+
+div#content1 img{
+    width: 46.77vw;
+}
+
+div#content1 video{
+    width: 50vw;
+}
+
+div#content2 {
+    display: flex;
+    justify-content: center;
+    gap: 2.3vw;
+    padding-top: 6vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family:'Cream';
+}
+
+div#content2 p, ul{
+    font-size:1.26vw;
+}
+
+div#slideshow-container {
+    position: relative;
+}
+
+div#slideshow-container img#berry-slideframe{
+    width:60vw;
+}
+
+div#slideshow-sidebar {
+    position:relative;
+    z-index: 2;
+    background-color:beige;
+    max-width: 40vw;
+    width: 40vw;
+}
+
+div#straw-desc {
+    font-family:'LocalBrewerySans';
+    text-align:justify;
+    margin: 1vw;
+    background-image:url("../media/berry-gridbrow.png");
+    border-radius: 20%;
+    color:white;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    padding-top: 6vw;
+    padding-bottom: 2vw;
+}
+
+div#straw-desc span#a{
+    font-family:'Arial';
+}
+
+div#straw-desc span#b{
+    color:lightpink;
+}
+
+img#straw-title{
+    position:absolute;
+    z-index: 2;
+    top: -6vw;
+    left: -2vw;
+    width: 30vw;
+}
+
+.berry-slide{
+    z-index:1;
+    position: absolute;
+    top: 2vw;
+    left: 6vw;
+    border-radius: 5%;
+    border: 5px black solid;
+    object-fit: cover;
+    width:47vw;
+    height: 25vw;
+    opacity:0;
+    transition: opacity 1s ease-out;
+}
+
+div#berry-contacts{
+    font-family:'LocalBrewerySans';
+    font-size: 18px;
+    margin:20px;
+    background-color:rgba(241, 182, 183, 0.5);
+}
+
+div#berry-contacts span{
+    font-family:'Arial';
+}
+
+div#content3{
+    display: flex;
+    margin-top: 3vw;
+    margin-left:7.5vw;
+    margin-right:7.5vw;
+    justify-content: space-around;
+}
+
+div#content3 a{
+    font-family: 'Cream';
+    text-decoration: none;
+    color: black;
+}
+
+div#content3 a:hover{
+    font-family: 'Cabriole';
+    text-decoration: none;
+    color:white;
+}
+
+div#content3 img {
+    margin-bottom: -25px;
+    width:24vw;
+}
+
+div#content3 h2 {
+    font-size:2vw;
+}
+
+div#content3 p {
+    margin-top: -15px;
+    margin-left: 12px;
+    font-size:1.2vw;
+}
+
+div#berry-box1{
+    border:5px white solid;
+    background-color: #6ed6ca;
+    border-radius: 10%;
+    font-family: 'LocalBrewerySans';
+    padding-right:10px;
+}
+
+div#berry-box2{
+    border:5px white solid;
+    background-color: #Ec2a7a;
+    border-radius: 10%;
+    font-family: 'LocalBrewerySans';
+    padding-right:10px;
+}
+
+div#berry-box3{
+    border:5px white solid;
+    background-color: #Ffb3a6;
+    border-radius: 10%;
+    font-family: 'LocalBrewerySans';
+    padding-right:10px;
+}
+
+div#footer {
+    font-family:'Garamond';
+    background-color: rgba(255, 255, 255,0.5);
+    text-align: center;
+    margin: 7vw;
+}
+
+div#footer h4{
+    font-size: 1.7vw;
+}
+
+div#footer p{
+    font-size: 1.3vw;
+}
+
+div#berry-logofoot {
+    display: flex;
+    justify-content: center;
+    gap:70vw;
+    font-family: 'Cream';
+}
+
+div#berry-logofoot img{
+    margin-bottom: -4vw;
+}
+
+div#berry-logofoot span{
+    color:mediumvioletred;
+}
+
+div#berry-webprog {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+}
+
+div#straw-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

@@ -1,0 +1,242 @@
+@font-face{font-family: Cream; 
+    src: url(../fonts/cream-DEMO.otf);
+    src: url(../fonts/cream-DEMO.ttf);
+}
+
+@font-face{font-family:LocalBrewerySans;
+    src: url(../fonts/LocalBrewerySans.otf);
+    src: url(../fonts/LocalBrewerySans.ttf);
+}
+
+@font-face{font-family:Cabriole;
+    src: url(../fonts/CabrioleDemoBold.ttf);
+    src: url(../fonts/CabrioleDemoBoldItalic.ttf);
+    src: url(../fonts/CabrioleDemoCondensed.ttf);
+    src: url(../fonts/CabrioleDemoItalic.ttf);
+    src: url(../fonts/CabrioleDemoLight.ttf);
+    src: url(../fonts/CabrioleDemoLightItalic.ttf);
+    src: url(../fonts/CabrioleDemoRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../media/berry-bg.png"); 
+}
+
+div#navibar {
+    background-image: url("../media/navibar-design.png");
+    background-size:cover;
+    display: inline-block;
+    width: 100vw;
+    min-width: 100vw;
+    height: 9.7vw;
+    min-height:9.7;
+    position: sticky;
+    top:0;
+    padding-bottom: -1vw;
+    z-index:3;
+    border-bottom: 10px white solid;
+}
+
+div#leftie img{
+    width:8.7vw;
+}
+  
+div#leftie {
+    float: left;
+    display: inline-block;
+    padding-left: 15px;
+}
+
+div#leftie h2 {
+    float: right;
+    padding-top: 1.3vw;
+    font-family:'Cream';
+    font-size:2.3vw;
+}
+
+div#leftie span {
+    color:white;
+}
+  
+div#rightie {
+    float: right;
+    padding-top: 2vw;
+    font-size: 1.28vw;
+}
+
+div#rightie a:link{
+    font-family:'LocalBrewerySans';
+    color: white;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:hover{
+    font-family:'LocalBrewerySans';
+    color: red;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie a:visited{
+    font-family:'LocalBrewerySans';
+    color: purple;
+    text-decoration:none;
+    font-weight:bold;
+    margin-right: 45px; 
+}
+
+div#rightie img#indicator{
+    margin-right:55px;
+}
+
+div#rightie img{
+    width: 5.4vw;
+}
+
+div#banner-bg{
+    margin-left:3vw;
+    margin-right:3vw;
+    margin-top:-3vw;
+    background-image:url(../media/ideal-bg.png);
+    background-size:cover;
+    font-size: 3vw;
+    color:black;
+    padding-left: 1.7vw;
+}
+
+div#banner-bg h1{
+    font-family:'Cabriole';
+    font-weight:bold;
+    background-color: rgba(255, 255, 255,0.3);
+    letter-spacing: 1vw;
+}
+
+div#banner-bg span{
+    font-family:'Cream';
+}
+
+div#berry-quest1 {
+    margin-left: 3vw;
+    margin-right:3vw;
+    margin-top:-2vw;
+    font-family:'Cream';
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+div#berry-quest1 h1{
+    font-size:2vw;
+}
+
+div#berry-quest1 p{
+    font-size:1.2vw;
+}
+
+div#berry-quest2 {
+    margin-left: 3vw;
+    margin-right:3vw;
+    margin-top:2vw;
+    font-family:'Cream';
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+div#berry-quest2 h1{
+    font-size:2vw;
+}
+
+div#berry-quest2 p{
+    font-size:1.2vw;
+}
+
+div#funfact img{
+    width:77vw;
+    padding-left:12vw;
+}
+
+div#berry-quest3 {
+    margin-left: 3vw;
+    margin-right:3vw;
+    margin-top:2vw;
+    font-family:'Cream';
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+div#berry-quest3 h1{
+    font-size:2vw;
+}
+
+div#berry-quest3 p{
+    font-size:1.2vw;
+}
+
+div#berry-quest4 {
+    margin-left: 3vw;
+    margin-right:3vw;
+    margin-top:2vw;
+    font-family:'Cream';
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+div#berry-quest4 h1{
+    font-size:2vw;
+}
+
+div#berry-quest4 p{
+    font-size:1.2vw;
+}
+
+div#learnmore img{
+    width:77vw;
+    padding-left:12vw;
+}
+
+div#aspecc {
+    margin-left: 3vw;
+    margin-right:3vw;
+    margin-top:2vw;
+    font-family:'Cream';
+    background-color:rgba(255, 255, 255,0.5);
+}
+
+div#aspecc h1{
+    font-size:2vw;
+}
+
+div#aspecc p{
+    font-size:1.2vw;
+}
+
+div#cats img{
+    width:77vw;
+    padding-left:12vw;
+}
+
+div#berry-logofoot {
+    display: flex;
+    justify-content: center;
+    gap:70vw;
+    font-family: 'Cream';
+}
+
+div#berry-logofoot img{
+    margin-bottom: -4vw;
+}
+
+div#berry-logofoot span{
+    color:mediumvioletred;
+}
+
+div#berry-webprog {
+    padding-top: 1vw;
+    padding-left: 0.5vw;
+}
+
+div#straw-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}

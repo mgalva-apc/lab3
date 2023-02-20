@@ -1,0 +1,53 @@
+@font-face{font-family: Cream; 
+    src: url(../fonts/cream-DEMO.otf);
+    src: url(../fonts/cream-DEMO.ttf);
+}
+
+@font-face{font-family:LocalBrewerySans;
+    src: url(../fonts/LocalBrewerySans.otf);
+    src: url(../fonts/LocalBrewerySans.ttf);
+}
+
+@font-face{font-family:Cabriole;
+    src: url(../fonts/CabrioleDemoBold.ttf);
+    src: url(../fonts/CabrioleDemoBoldItalic.ttf);
+    src: url(../fonts/CabrioleDemoCondensed.ttf);
+    src: url(../fonts/CabrioleDemoItalic.ttf);
+    src: url(../fonts/CabrioleDemoLight.ttf);
+    src: url(../fonts/CabrioleDemoLightItalic.ttf);
+    src: url(../fonts/CabrioleDemoRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../media/berry-bg.png"); 
+}
+
+div#backtonarnia {
+    background-color: rgba(90,41,154,0.5);
+}
+
+div#backtonarnia a{
+    display:flex;
+    text-decoration: none;
+    border-bottom: 3px darkblue solid;
+}
+
+div#backtonarnia a p{
+    font-family: 'LocalBrewerySans';
+    font-size: 2vw;
+    font-weight: bold;
+    color:black;
+    padding-top: 1vw;
+}
+
+div#backtonarnia img{
+    width: 8vw;
+}
+
+div#inconvenience img{
+    width: 68vw;
+    padding-top: 1vw;
+    padding-left: 17vw;
+}
