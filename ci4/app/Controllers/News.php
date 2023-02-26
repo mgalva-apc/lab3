@@ -71,7 +71,7 @@ class News extends BaseController
         ]);
 
         return view('templates/wercomu', ['title' => 'Create a news item'])
-            . view('news/success')
+            . view('/news/success')
             . view('templates/footer');
     }
 }
