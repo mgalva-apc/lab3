@@ -21,81 +21,89 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../media/berry-bg.png"); 
+    background-image: url("../media/berry-bg.png");
+    overflow-x: hidden;  
 }
 
 div#navibar {
     background-image: url("../media/navibar-design.png");
     background-size:cover;
-    display: inline-block;
+    display: flex;
+    gap:4vw;
+    justify-content:center;
     width: 100vw;
     min-width: 100vw;
-    height: 9.7vw;
+    height: 7.8vw;
     min-height:9.7;
     position: sticky;
     top:0;
     padding-bottom: -1vw;
     z-index:3;
     border-bottom: 10px white solid;
+    font-family:Cabriole;
+    font-weight: bold;
 }
 
-div#leftie img{
-    width:8.7vw;
+div#navibar img{
+    width: 6vw;
 }
-  
-div#leftie {
+
+div#navibar a{
+    Color: white;
+    text-decoration: none;
+    font-size:1.3vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    text-align: center;
+}
+
+a#icon{
+    display: flex;
+    flex-direction: column;
+}
+
+div#logo img{
+    width:11.7vw;
+}
+
+div#logo {
+    float:center;
+    z-index:4;
+}
+
+img#newlogo:hover{
+    width:12.3vw;
+}
+
+div#leftside{
     float: left;
-    display: inline-block;
-    padding-left: 15px;
+    display: flex;
 }
 
-div#leftie h2 {
-    float: right;
-    padding-top: 1.3vw;
-    font-family:'Cream';
-    font-size:2.3vw;
+div#leftside img:hover{
+    width:7vw;
 }
 
-div#leftie span {
-    color:white;
-}
-  
-div#rightie {
-    float: right;
-    padding-top: 2vw;
-    font-size: 1.28vw;
+div#leftside p{
+    margin-top: -0.15vw;
+    background-color:#D85454;
+    border-radius: 25px;
 }
 
-div#rightie a:link{
-    font-family:'LocalBrewerySans';
-    color: white;
-    text-decoration:none;
-    font-weight:bold;
-    margin-right: 45px; 
+
+div#rightside{
+    float:right;
+    display: flex;
 }
 
-div#rightie a:hover{
-    font-family:'LocalBrewerySans';
-    color: red;
-    text-decoration:none;
-    font-weight:bold;
-    margin-right: 45px; 
+div#rightside p{
+    margin-top: -0.15vw;
+    background-color:#D85454;
+    border-radius: 25px;
 }
 
-div#rightie a:visited{
-    font-family:'LocalBrewerySans';
-    color: purple;
-    text-decoration:none;
-    font-weight:bold;
-    margin-right: 45px; 
-}
-
-div#rightie img#indicator{
-    margin-right:55px;
-}
-
-div#rightie img{
-    width: 5.4vw;
+div#rightside img:hover{
+    width:7vw;
 }
 
 div#content1{
@@ -283,43 +291,155 @@ div#master-up, div#master-down{
     gap: 4vw;
 }
 
-div#footer {
+div#footer-message {
     font-family:'Garamond';
     background-color: rgba(255, 255, 255,0.5);
     text-align: center;
     margin: 7vw;
 }
 
-div#footer h4{
+div#footer-message h4{
     font-size: 1.7vw;
 }
 
-div#footer p{
+div#footer-message p{
     font-size: 1.3vw;
 }
 
-div#berry-logofoot {
+div#footer{
     display: flex;
-    justify-content: center;
-    gap:70vw;
-    font-family: 'Cream';
+    flex-direction: row;
+    width: 100vw;
+    min-width: 100vw;
+    background-color: white;
+    height: 12vw;
+    justify-content: space-around;
+    font-family: Cream;
 }
 
-div#berry-logofoot img{
-    margin-bottom: -4vw;
+div#logoround{
+    background-color:#B32f2f;
+    background-size: cover;
+    min-width: 15vw;
+    text-align: center;
 }
 
-div#berry-logofoot span{
-    color:mediumvioletred;
+div#logoround img{
+    margin-top: 1vw;
+    width: 10vw;
 }
 
-div#berry-webprog {
-    padding-top: 1vw;
-    padding-left: 0.5vw;
+div#quicklinks{
+    background-color:#E89292;
+    background-size: cover;
+    min-width: 35vw;
+    padding-left: 1vw;
+    Color: white;
 }
 
-div#straw-logo{
+div#quicklinks a{
+    font-family: Cabriole;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
+}
+
+div#quicklinks a:hover{
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+
+div#quicklinks h4{
+    margin-bottom: 0.50vw;
+    margin-top: 1vw;
+    text-decoration: underline;
+    font-size: 1.7vw;
+}
+
+div#links{
     display: flex;
-    flex-direction: column;
-    gap: 2vw;
+    gap: 5vw;
+    padding-left: 4vw;
+}
+
+div#form{
+    background-color:#F7c4c4;
+    background-size: cover;
+    min-width: 25vw;
+    padding-left: 1vw;
+    Color: #Be1111;
+}
+
+div#form h4{
+    margin-bottom: 0.50vw;
+    margin-top: 1vw;
+    text-decoration: underline;
+    font-size: 1.7vw;
+}
+
+div#form p{
+    font-family: Cabriole;
+    text-decoration: none;
+    color: #Be1111;
+    font-size: 1.3vw;
+    margin-bottom: -1vw;
+}
+
+div#form span{
+    font-family: Cream;
+}
+
+
+div#form a{
+    font-family: Cabriole;
+    text-decoration: none;
+    color: #Be1111;
+    font-size: 1.3vw;
+}
+
+div#form a:hover{
+    font-size: 1.4vw;
+    font-weight: bold;
+    Color: white;
+    background-color: #Be1111;
+    min-width: 3vw;
+}
+
+div#form h4{
+    margin-bottom: 0.50vw;
+    margin-top: 1vw;
+    text-decoration: underline;
+    font-size: 1.4vw;
+}
+
+div#contact{
+    background-color: #Fde1e1;
+    background-size: cover;
+    min-width: 25vw;
+    padding-left: 1vw;
+    Color: #Be1111;
+}
+
+div#contact span{
+    font-family: Cream;
+    font-weight: none;
+}
+
+div#contact h4{
+    margin-bottom: 0.50vw;
+    margin-top: 1vw;
+    text-decoration: underline;
+    font-size: 1.4vw;
+}
+
+div#contact p{
+    font-family: Cabriole;
+    text-decoration: none;
+    color: #Be1111;
+    font-size: 1.3vw;
+    margin-bottom: -1vw;
+}
+
+p#webprog{
+    margin-top: -0.50vw;
 }

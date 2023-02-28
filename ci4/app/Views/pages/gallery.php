@@ -8,46 +8,74 @@
   <link href="css/gallery-style.css" rel="stylesheet">
 </head>
 <body>
-    <div id="navibar">
-        <div id="leftie">
-            <a href="/lab3/ci4/public/home"> 
-                <img src="media/berry-logoye.png" width="88px">
+<div id="navibar">
+        <div id=leftside>
+            <a id=icon href="home">
+                <img id=icon src="media/home.png">
+                    <p>Home</p>
             </a>
-            <h2>strawbearry <span>pop</span></h2>
+            <a id=icon href="archiver">
+                <img id=icon src="media/Archiver.png">
+                    <p>Archiver</p>
+            </a>
+            <a id=icon href="ideals">
+                <img id=icon src="media/Ideals.png">
+                    <p>Ideals</p>
+            </a>
         </div>
-        <div id="rightie">
-            <nav>
-                <a href="/lab3/ci4/public/archiver">
-                    <img src="media/Archiver.png" width="60px">
-                    The Archiver
-                </a>
-                <a href="/lab3/ci4/public/ideals">
-                    <img src="media/Ideals.png" width="60px">
-                    Ideals
-                </a>
-                <a href="/lab3/ci4/public/interests">
-                    <img src="media/Interests.png" width="60px">
-                    Interests
-                </a>
-                <img id="indicator" src="media/berry-pixel.png">
-                <a href="/lab3/ci4/public/extras">
-                    <img src="media/Features.png" width="60px">
-                    Resources
-                </a>
-              </nav>
+        <div id="logo">
+            <a href="acknowledge">
+                <img id=newlogo src="media/new-logo.png">
+            </a>
+        </div>
+        <div id=rightside>
+            <a id=icon href="interests">
+                <img id=icon src="media/Interests.png">
+                <p>Interests</p>
+            </a>
+            <a id=icon href="gallery">
+                <img id=icon src="media/Creations.png"">
+                    <p>Gallery</p>
+            </a>
+            <a id=icon href="extras">
+                <img id=icon src="media/Features.png">
+                    <p>Features</p>
+            </a>
         </div>
     </div>
     <div id="inconvenience">
         <img src="media/albedoops.png">
     </div>
-    <div id="berry-logofoot">
-        <div id="berry-webprog">
-            <p>mgalva@student.apc.edu.ph</p>
-            <p>WEBPROG(2022-2021)</p>
+    <div id=footer>
+        <div id=logoround>
+            <img src="media/logoround.png">
         </div>
-        <div id="straw-logo">
-            <img src="media/berry-logoye.png" width="100vw">
-            <h4>strawberry <span>pop</span></h4>
+        <div id=quicklinks>
+            <h4>Quick Links</h4>
+            <div id=links> 
+                <div id=todaleft>
+                    <a href="home"> Home </a> <br>
+                    <a href="archiver"> Archiver </a> <br>
+                    <a href="ideals"> Ideals </a> <br>
+                    <a href="interests"> Interests </a> <br>
+                </div>
+                <div id=todaright>
+                    <a href="gallery"> Gallery </a> <br>
+                    <a href="extras"> Extras </a> <br>
+                    <a href="forms"> Forms </a> <br>
+                    <a href="news"> News </a> <br>
+                </div>
+            </div>
+        </div>
+        <div id=form>
+            <h4>Got something to say?</h4>
+            <p> Tell me all about it through a user information form<span>!</span> Check it out in the link below<span>!</span></p> <br>
+            <a href="emptyform.php">Click Here<span>!</span></a>
+        </div>
+        <div id=contact>
+            <h4>Contact me<span>!</span></h4>
+            <p>mgalva<span>@student.apc.edu.ph</span></p> <br>
+            <p id=webprog>WEBPROG<span>(2022-2023)</span></p>
         </div>
     </div>
 </body>
