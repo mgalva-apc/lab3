@@ -9,9 +9,9 @@
 </head>
 <body>
     <div id="backtonarnia">
-        <a href="../resources">
+        <a href="../extras">
             <img src="../media/raidenpoint.png">
-            <p>Click here to go back to the <span>resources</span> page.</p>
+            <p>Click here to go back to the <span>extras</span> page.</p>
         </a>
     </div>
     <div id="containingstuff">

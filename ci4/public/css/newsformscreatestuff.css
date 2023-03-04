@@ -1,0 +1,167 @@
+@font-face{font-family: Cream; 
+    src: url(../fonts/cream-DEMO.otf);
+    src: url(../fonts/cream-DEMO.ttf);
+}
+
+@font-face{font-family:LocalBrewerySans;
+    src: url(../fonts/LocalBrewerySans.otf);
+    src: url(../fonts/LocalBrewerySans.ttf);
+}
+
+@font-face{font-family:Cabriole;
+    src: url(../fonts/CabrioleDemoBold.ttf);
+    src: url(../fonts/CabrioleDemoBoldItalic.ttf);
+    src: url(../fonts/CabrioleDemoCondensed.ttf);
+    src: url(../fonts/CabrioleDemoItalic.ttf);
+    src: url(../fonts/CabrioleDemoLight.ttf);
+    src: url(../fonts/CabrioleDemoLightItalic.ttf);
+    src: url(../fonts/CabrioleDemoRegular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../media/berry-bg.png");
+    font-family: Cream; 
+}
+
+div#backtonarnia {
+    background-color: rgba(90,41,154,0.5);
+}
+
+div#backtonarnia a{
+    display:flex;
+    text-decoration: none;
+    border-bottom: 3px darkblue solid;
+}
+
+div#backtonarnia a p{
+    font-family: 'LocalBrewerySans';
+    font-size: 2vw;
+    font-weight: bold;
+    color:black;
+    padding-top: 1vw;
+}
+
+div#backtonarnia img{
+    width: 8vw;
+}
+
+div#containingstuff{
+    margin: 3vw;
+}
+
+div#containingstuff h2{
+    font-size: 2.7vw;
+    background-color: white;
+    min-width: 75vw;
+    min-height: 10vh;
+    border: 12px solid pink;
+    border-radius: 23vw;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+div#containingstuff img{
+    width: 89vw;
+    text-align: center;
+    margin-left: 2vw;
+}
+
+div#newstuff{
+    background-color: rgba(113, 77, 143, 0.60);
+    border: 3px solid white;
+}
+
+div#newstuff h3{
+    background-color: white;
+    min-width: auto;
+    min-height: auto;
+    padding-left: 2vw;
+    font-size: 1.7vw;
+}
+
+div#newstuff p{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+}
+
+div#newstuff a{
+    text-decoration: none;
+    color: white;
+    background-color: darkslateblue;
+    min-width: 24vw;
+    min-height: 9vh;
+    border-radius: 5px;
+}
+
+div#newstuff a:hover{
+    font-size: 1.5vw;
+}
+
+.main{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    color: white;
+}
+
+div#wannamake{
+    text-align: center;
+    background-color: rgba(248, 242, 248, 0.65);
+    width: 69vw;
+    border-radius: 15px;
+    margin-left: 15vw;
+    margin-bottom: 5vh;
+}
+
+div#formstuff{
+    margin-top: 4vh;
+    margin-left: 7.4vw;
+    font-size: 2.7vw;
+    background-color: white;
+    width: 85vw;
+    min-height: 10vh;
+    border: 12px solid pink;
+    border-radius: 23vw;
+    text-align: center;
+    padding-top: 2vh;
+    justify-content: center;
+}
+
+.mainforms{
+    background-color: rgba(113, 77, 143, 0.60);
+    border: 3px solid white;
+}
+
+.mainforms h3{
+    background-color: white;
+    min-width: auto;
+    min-height: auto;
+    padding-left: 2vw;
+    font-size: 1.7vw;
+}
+
+.mainforms p{
+    padding-left: 3vw;
+    font-size: 1.2vw;
+    color: White;
+}
+
+div#labels{
+    font-size: 1.5vw;
+    margin-bottom: 2vh;
+}
+
+div#submitbutton input{
+    background-color: pink;
+    background-image: transparent;
+    border: 3px solid lightcoral;
+    border-radius: 15px;
+    font-family: Cream;
+    font-size: 1.7vw;
+    cursor: pointer;
+}
+
+div#submitbutton input:hover{
+    font-size: 1.9vw;
+}

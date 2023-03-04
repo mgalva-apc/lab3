@@ -12,7 +12,7 @@ class News extends BaseController
 
         $data = [
             'news'  => $model->getNews(),
-            'title' => 'News archive',
+            'title' => 'Latest Updates From Different Realms',
         ];
 
         return view('templates/wercomu', $data)

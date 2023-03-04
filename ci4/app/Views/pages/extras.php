@@ -58,7 +58,7 @@
     </div>
     <div id="berry-contain">
         <div id="berri-leftie">
-            <a href="forms">User Registration</a>
+            <a href="guest/create">User Registration</a>
             <p>This page contains the user registration form where interested users can fill out and form and leave their mark</p>
         </div>
         <div id="berri-rightie">
@@ -82,7 +82,7 @@
                 <div id=todaright>
                     <a href="gallery"> Gallery </a> <br>
                     <a href="extras"> Extras </a> <br>
-                    <a href="forms"> Forms </a> <br>
+                    <a href="guest/create"> Forms </a> <br>
                     <a href="news"> News </a> <br>
                 </div>
             </div>
@@ -90,7 +90,7 @@
         <div id=form>
             <h4>Got something to say?</h4>
             <p> Tell me all about it through a user information form<span>!</span> Check it out in the link below<span>!</span></p> <br>
-            <a href="emptyform.php">Click Here<span>!</span></a>
+            <a href="guest/create">Click Here<span>!</span></a>
         </div>
         <div id=contact>
             <h4>Contact me<span>!</span></h4>
