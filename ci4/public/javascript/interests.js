@@ -22,7 +22,28 @@ function showSlides(n){
     vidSlides[index].style.opacity = "1"
     txtSlides[index].style.opacity = "1"
 }
-//CONTENT 3 DIV for the slides again
+
+//pic rep
+var container = document.getElementById("picrep"); //LESSON 2.1 - VARIABLES//
+var slides = container.getElementsByClassName("picsforrep");
+
+function showSlidesAuto(s, i) {
+    s[i].style.opacity = "1"; //LESSON 7.1 - ARRAYS (array is 'slides' and is passed through s)//
+
+    if (i == 0) { //LESSON 9.4 - IF ELSE//
+        s[s.length-1].style.opacity = "0";
+    } else {
+        s[i-1].style.opacity = "0";
+    }
+
+    i++;
+    if (i >= s.length) { //LESSON 9.3 - COMPARISONS//
+        i = 0; //LESSON 5.2 - ASSINGMENTS//
+    }
+    setTimeout(function () { showSlidesAuto(s, i) }, 5000);
+}
+
+//CONTENT 2 DIV
 var modalBtn2 = document.getElementById("berry-button2");
 var modal2 = document.getElementById("berry-modal2");
 modalBtn2.addEventListener('click', function() { modal2.showModal() } );
@@ -46,5 +67,55 @@ function showSlides2(n2){
     vidSlides2[index2].style.opacity = "1"
     txtSlides2[index2].style.opacity = "1"
 }
+
+//pic rep
+var container2 = document.getElementById("picrep2");
+var slides2 = container2.getElementsByClassName("picsforrep2");
+
+function showSlidesAuto2(s, i) {
+    s[i].style.opacity = "1"; 
+
+    if (i == 0) { 
+        s[s.length-1].style.opacity = "0";
+    } else {
+        s[i-1].style.opacity = "0";
+    }
+
+    i++;
+    if (i >= s.length) { 
+        i = 0; 
+    }
+    setTimeout(function () { showSlidesAuto2(s, i) }, 5000);
+}
+
+//simp rater
+var simpPortraits = document.getElementsByClassName("simpfor");
+var simpRatings = document.getElementsByClassName("simpytex");
+var simpBtn = document.getElementById("picsimp");
+var simpModal = document.getElementById("simpmodal");
+simpBtn.addEventListener('click', function() { simpModal.showModal() } );
+var simpicons = document.getElementsByClassName("iconsimp");
+for (let i=0; i<simpicons.length; ++i) {
+    simpicons[i].addEventListener('click', function() { simpModal.close() });
+}
+function showSimp(index) {
+    for (var i=0; i<simpPortraits.length; ++i) {
+      simpPortraits[i].style.opacity = "0";
+      simpRatings[i].style.opacity = "0";
+    }    
+    simpPortraits[index].style.opacity = "1";
+    simpRatings[index].style.opacity = "1";
+  }
+
+//infomodal
+var infoBtn = document.getElementById("simpinfo");
+var infoModal = document.getElementById("infoOnsimp");
+infoBtn.addEventListener('click', function() { infoModal.showModal() } );
+var canBtn = document.getElementById("berry-cancelagen");
+canBtn.addEventListener('click', function() { infoModal.close()} );
+
+showSlidesAuto(slides, 0);
 showSlides(0);
+showSlidesAuto2(slides2, 0);
 showSlides2(0);
+showSimp(0)

@@ -18,11 +18,17 @@
     src: url(../fonts/CabrioleDemoRegular.ttf);
 }
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../media/berry-bg.png");
-    overflow-x: hidden; 
+    background-image: url("../media/alt-bg.png");
+    min-height: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 div#navibar {
@@ -106,48 +112,118 @@ div#rightside img:hover{
     width:7vw;
 }
 
-div#berry-pic img{
+div#firstthing{
+    background-image:url("../media/bantype1.png");
+    background-size: cover;
+    min-height: 35vh;
+    text-align: center;
+    padding-top: 8vh;
+    border-bottom: 8px solid #F7B6BE;
+}
+
+div#firstthing img{
     width: 38vw;
+    margin-bottom: -3vh;
+}
+
+div#firstthing p{
+    font-family: Cream;
+    font-size: 1.4vw;
+}
+
+div#ribbon1{
+    z-index: -3;
+    background-color: #72597E;
+    min-height: 25vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 94vh;
+    left: 0vw;
+}
+
+div#content1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25vw;
+}
+
+#herecontent {
+    position: relative;
+    min-height: 75vh;
+}
+
+div#picrep{
+    position: relative;
+    min-width: 27vw;
+}
+
+.picsforrep {
+    position: absolute;
+    top: 3.57vw;
+    left: 3vw;
+    width:32vw;
+    opacity:0;
+    transition: opacity 1s ease-out;
+}
+
+img#name{
+    width: 32vw;
+    height: auto;
+    top: 55vh;
+    left: 10vw;
     position: absolute;
     z-index: 2;
-    right: 6vw;
 }
 
-div#content1 {
-    font-family: 'Cabriole';
-    background-image: url("../media/bg-try.png");
-    background-size: cover;
-    margin-top: 2.2vw;
-    padding-top: 2vw;
-    padding-left: 5vw;
-    padding-bottom: 1vw;
-    height: 49vh;
+div#modalmenu{
+    position: relative;
+    top: 25vh;
+    right: 3vw;
+    background-color: #F7B6BE;
+    border: 3px solid #72597E;
+    border-radius: 25px;
+    max-height: 42vh;
+    min-width: 40vw;
+    font-family: Cream;
+    text-align: center;
 }
 
-div#content1 span{
-    font-family: 'Cream';
-}
-
-div#content1 h2 {
-    font-size: 3.5vw;
+div#modalmenu h3{
     font-weight: bold;
+    font-size: 3.2vw;
+    Color: #72597E;
+    margin-top: 4vh;
+    margin-bottom: 0.75vw;
 }
 
-div#content1 p{
-    font-size: 1.2vw;
+div#message{
+    background-color: beige;
+    border: 1px solid #F7B6BE;
+    border-radius: 15px;
+    margin-left: 2.3vw;
+    min-height: 11vw;
+    max-width: 35vw;
+    font-size: 1.3vw;
 }
 
-button#berry-button1 {
-    font-family: 'Cream';
-    font-size: 1.5vw;
-    background-color: rgba(197, 247, 242, 1);
-    margin-top: 2vw;
-    width: 15vw;
-    border: 3px rgba(255, 138, 140, 1) dotted;
-    border-radius: 15%;
-    margin-left: 18vw;
-    margin-top: -0.30vw;
+button#berry-button1{
+    z-index: 2;
+    width: 3vw;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -24vh;
+    left: 57.3vw;
     cursor: pointer;
+}
+
+button#berry-button1 img{
+    width: 27vw;
+}
+
+button#berry-button1 img:hover{
+    width: 28vw;
 }
 
 img#berry-cancel{
@@ -272,119 +348,100 @@ div#arrow-buttons img#right{
     cursor: pointer;
 }
 
-div#header2 {
-    background-image:url("../media/header2.png");
-    font-family: 'Cabriole';
-    font-size: 2vw;
-    margin-top: -2.5vw;
-    padding-left: 3vw;
-}
-
-div#header2 span{
-    font-family:'Cream';
+div#ribbon2{
+    z-index: -3;
+    background-color: #F69999;
+    min-height: 25vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 180vh;
+    left: 0vw;
 }
 
 div#content2{
-    margin-left: 20vw;
-    margin-right: 20vw;
-    font-family:'Cream';
-}
-
-div#content2 img{
-    width: 14vw;
-}
-
-.container{
-    background-image: linear-gradient(to bottom right, rgba(255, 229, 229, 0.85), rgba(229, 246, 255, 0.85));
-    padding: 3.5vw;
-    border-radius: 20%;
-}
-
-div#layer1 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18vw;
+    margin-top: -16vh;
 }
 
-div#layer2{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 7vw;
-    margin-right: 7vw;
-    margin-top: 2vw;
+#herecontent2 {
+    position: relative;
+    min-height: 75vh;
 }
 
-div#img-cont{
-    position:relative;
-    display: flex;
-    overflow: hidden;
+div#picrep2{
+    position: relative;
+    min-width: 27vw;
 }
 
-div#text{
+.picsforrep2 {
     position: absolute;
-    width: 100%;
-    height: 0;
-    bottom:0;
-    background-color: rgba(216, 84, 84, 0.9);
-    padding: 0.2vw;
-    color: white;
-    transition: height 0.25s ease-in-out;
+    top: 2vw;
+    right: 3vw;
+    width:32vw;
+    opacity:0;
+    transition: opacity 1s ease-out;
 }
 
-div#text h2{
-    font-size: 1.2vw;
-}
-
-div#text p{
-    font-size: 0.85vw;
-    text-align: justify;
-}
-
-div#img-cont:hover > div#text {
-    height: 100%;
-}
-
-div#berry-pic2 img{
-    width: 38vw;
+img#name2{
+    width: 32vw;
+    height: auto;
+    top: 55vh;
+    right: -5vw;
     position: absolute;
     z-index: 2;
-    right: 6vw;
 }
 
-div#content3 {
-    font-family: 'Cabriole';
-    background-image: url("../media/bg-try2.png");
-    background-size: cover;
-    margin-top: 2.2vw;
-    padding-top: 2vw;
-    padding-left: 5vw;
-    padding-bottom: 1vw;
-    height: 49vh;
+div#modalmenu2{
+    position: relative;
+    top: 20vh;
+    right: -2vw;
+    background-color: #96D6BF;
+    border: 3px solid #F69999;
+    border-radius: 25px;
+    max-height: 48.4vh;
+    max-width: 40vw;
+    font-family: Cream;
+    text-align: center;
 }
 
-div#content3 span{
-    font-family: 'Cream';
-}
-
-div#content3 h2 {
-    font-size: 3vw;
+div#modalmenu2 h3{
     font-weight: bold;
+    font-size: 2.9vw;
+    Color: #b15353;
+    margin-top: 4vh;
+    margin-bottom: 0.75vw;
 }
 
-div#content3 p{
-    font-size: 1.2vw;
+div#message2{
+    background-color: beige;
+    border: 1px solid #F7B6BE;
+    border-radius: 15px;
+    margin-left: 2.3vw;
+    min-height: 10vw;
+    max-width: 35vw;
+    font-size: 1.3vw;
 }
 
-button#berry-button2 {
-    font-family: 'Cream';
-    font-size: 1.5vw;
-    background-color: rgba(255, 138, 140, 1);
-    margin-top: 2vw;
-    width: 15vw;
-    border: 3px rgba(138, 30, 30, 1) dotted;
-    border-radius: 15%;
-    margin-left: 18vw;
-    margin-top: -0.30vw;
+button#berry-button2{
+    z-index: 2;
+    width: 3vw;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -22.6vh;
+    left: 13.6vw;
     cursor: pointer;
+}
+
+button#berry-button2 img{
+    width: 27vw;
+}
+
+button#berry-button2 img:hover{
+    width: 28vw;
 }
 
 img#berry-cancel2{
@@ -509,13 +566,218 @@ div#arrow-buttons2 img#right2{
     cursor: pointer;
 }
 
+div#content3{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family:'Cream';
+    width: 90vw;
+    margin-bottom: 8vh;
+    margin-top: -15vh;
+}
+
+div#content3 img{
+    width: 14vw;
+}
+
+div#headingpart{
+    text-align: center;
+}
+
+div#headingpart img{
+    width: 40vw;
+    margin-bottom: -8vh;
+}
+
+.container{
+    background-image: linear-gradient(to bottom right, rgba(252, 194, 194, 0.50), rgba(142, 207, 217, 0.5));
+    padding: 3.5vw;
+    border: 4px solid white;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.7vw;
+}
+
+div#img-cont{
+    position:relative;
+    display: flex;
+    overflow: hidden;
+}
+
+div#text{
+    position: absolute;
+    width: 95%;
+    height: 0;
+    bottom:0;
+    background-color: rgba(216, 84, 84, 0.9);
+    padding: 0.4vw;
+    color: white;
+    transition: height 0.25s ease-in-out;
+}
+
+div#text h2{
+    font-size: 1.2vw;
+}
+
+div#text p{
+    font-size: 0.85vw;
+    text-align: justify;
+}
+
+div#img-cont:hover > div#text {
+    height: 100%;
+}
+
+div#contentsimp {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: -29vh;
+}
+
+button#simpinfo{
+    z-index: 1;
+    position: absolute;
+    top: 5vh;
+    left: 35vw;
+    width: 10vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button#simpinfo img{
+    width: 14vw;
+}
+
+div#simpleft {
+    position: relative;
+    padding-bottom: 50vh;
+    min-width: 50vw;
+}
+
+div#simpright {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 50vw;
+    padding-bottom: 50vh;
+}
+
+.simpfor{
+    opacity: 0;
+}
+
+img.simpfor {
+    position: absolute;
+    height: auto;
+    width: 50vw;
+    margin-left: 5vw;
+}
+
+img#sectitle {
+    align-self: center;
+    margin-top: -17vh;
+    margin-left: 1vw;
+    height: auto;
+    width: 37vw;
+    z-index: 1;
+}
+
+.simpytex {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 35vh;
+    width: 35vw;
+    top: 23vh;
+    left: 5vw;
+    background-color: white;
+    border: 25px solid pink;
+    border-radius: 30px;
+    font-family: Cream;
+    font-size: 1.2vw;
+    padding: 1vw;
+    opacity: 0;
+}
+
+.simpytex img{
+    margin-top: -15vh;
+    margin-left: 5vw;
+    width: 25vw;
+}
+
+button#picsimp {
+    z-index: 1;
+    position: relative;
+    top: 16vh;
+    left: 13vw;
+    width: 10vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button#picsimp img{
+    width: 24vw;
+}
+
+dialog#simpmodal{
+    background-image: linear-gradient(to bottom right, rgba(252, 194, 194, 0.50), rgba(142, 207, 217, 0.5));
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 58vw;
+    height: 70vh;
+}
+
+div#rowsimp{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.iconsimp{
+    cursor: pointer;
+    width: 8vw;
+}
+
+dialog#infoOnsimp{
+    background-image: linear-gradient(to bottom right, rgba(252, 194, 194, 0.50), rgba(142, 207, 217, 0.5));
+    border: 4px solid white;
+    border-radius: 20px;
+    width: 58vw;
+    height: 70vh;
+    font-family: Cream;
+}
+
+dialog#infoOnsimp h4{
+    font-size: 1.7vw;
+}
+
+dialog#infoOnsimp p{
+    font-size: 1.2vw;
+}
+
+div#headone{
+    display: flex;
+    margin-left: 39vw;
+    margin-bottom: -3vw;
+}
+
+img#berry-cancelagen{
+    cursor: pointer;
+    width: 5vw;
+}
+
 div#footer{
+    position: relative;
     display: flex;
     flex-direction: row;
     width: 100vw;
     min-width: 100vw;
     background-color: white;
-    height: 12vw;
+    height: 30vh;
     justify-content: space-around;
     font-family: Cream;
 }

@@ -48,12 +48,22 @@
     </div>
     <div id="berry-contain">
         <div id="berri-leftie">
-            <a href="/lab3/ci4/public/lessons.php">Lesson Application</a>
+            <a href="lessons">Lesson Application</a>
             <p>This page contains applications of lessons from class that the creator could not integrate with the design of the website in mind</p>
         </div>
         <div id="berri-rightie">
-            <a href="/lab3/ci4/public/resources">Resources and Templates</a>
+            <a href="resources">Resources and Templates</a>
             <p>This page features sites and other creators referenced by the creator for the creation of this website <span>(RESOURCES UP TO DATE)</span></p>
+        </div>
+    </div>
+    <div id="berry-contain">
+        <div id="berri-leftie">
+            <a href="forms">User Registration</a>
+            <p>This page contains the user registration form where interested users can fill out and form and leave their mark</p>
+        </div>
+        <div id="berri-rightie">
+            <a href="news">News and Updates</a>
+            <p>This page is where you can find the latest news available in the realm of the archiver and updates regarding the site</p>
         </div>
     </div>
     <div id=footer>
