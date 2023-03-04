@@ -12,7 +12,7 @@
     <source src="media/inazumaEP.mp4" type="video/mp4">
   </video>
   <div id="buttonWrapper">
-    <a href="/lab3/ci4/public/home"> 
+    <a href="home"> 
       <img src="media/introButton.png">
     </a>
   </div>
