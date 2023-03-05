@@ -17,4 +17,25 @@ function showSlides(s, i) {
     setTimeout(function () { showSlides(s, i) }, 5000);
 }
 
+//flashingtext
+var container2 = document.getElementById("flashingtext"); //LESSON 2.1 - VARIABLES//
+var slides2 = container2.getElementsByClassName("randmes");
+
+function showSlides2(s, i) {
+    s[i].style.opacity = "1"; //LESSON 7.1 - ARRAYS (array is 'slides' and is passed through s)//
+
+    if (i == 0) { //LESSON 9.4 - IF ELSE//
+        s[s.length-1].style.opacity = "0";
+    } else {
+        s[i-1].style.opacity = "0";
+    }
+
+    i++;
+    if (i >= s.length) { //LESSON 9.3 - COMPARISONS//
+        i = 0; //LESSON 5.2 - ASSINGMENTS//
+    }
+    setTimeout(function () { showSlides2(s, i) }, 5000);
+}
+
 showSlides(slides, 0);
+showSlides2(slides2, 0);

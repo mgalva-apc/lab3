@@ -114,6 +114,38 @@ video#sakurablossom{
     width: 99vw;
 }
 
+div#header img{
+    width: 65vw;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 25vh;
+    left: 17vw;
+}
+
+div#flashingtext{
+    justify-content: center;
+}
+
+.randmes{
+    z-index: 2;
+    position: absolute;
+    top: 68vh;
+    left: 21vw;
+    text-align: center;
+    font-family: Cream;
+    font-size: 1.4vw;
+    background-color: #Ee9898;
+    height: 6.4vh;
+    width: 55vw;
+    border: 8px solid white;
+    border-radius: 20px;
+    color: white;
+    padding-top: 1.5vh;
+    opacity:0;
+    transition: opacity 1s ease-out;
+}
+
 div#content2 {
     display: flex;
     justify-content: center;
@@ -198,6 +230,53 @@ div#berry-contacts span{
     font-family:'Arial';
 }
 
+div#addaribbon{
+    z-index: -3;
+    background-color: white;
+    min-height: 25vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 228vh;
+    left: 0vw;
+    opacity: 0.65;
+}
+
+div#checknews{
+    font-family: Cabriole;
+}
+
+div#checknews img{
+    padding-left: 7vw;
+    width: 85vw;
+}
+
+div#checknews p{
+    text-align: center;
+    font-size: 1.4vw;
+    z-index: 2;
+    position: absolute;
+    top: 228vh;
+    left: 41vw;
+    width: 42vw;
+}
+
+a#linknews{
+     text-align: center;
+    font-size: 1.4vw;
+    z-index: 2;
+    position: absolute;
+    top: 242vh;
+    left: 41vw;
+    width: 42vw;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkmagenta;
+}
+
+a#linknews:hover{
+    font-size: 1.7vw;
+}
+
 div#content3{
     display: flex;
     margin-top: 3vw;
@@ -235,7 +314,7 @@ div#content3 p {
 
 div#berry-box1{
     border:5px white solid;
-    background-color: #6ed6ca;
+    background-color: #9ae3e0;
     border-radius: 10%;
     font-family: 'LocalBrewerySans';
     padding-right:10px;
@@ -243,7 +322,7 @@ div#berry-box1{
 
 div#berry-box2{
     border:5px white solid;
-    background-color: #Ec2a7a;
+    background-color: #Fab6ce;
     border-radius: 10%;
     font-family: 'LocalBrewerySans';
     padding-right:10px;

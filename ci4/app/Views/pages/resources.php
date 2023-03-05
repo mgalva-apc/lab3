@@ -9,7 +9,7 @@
 </head>
 <body>
     <div id="backtonarnia">
-        <a href="/lab3/ci4/public/extras">
+        <a href="extras">
             <img src="media/raidenpoint.png">
             <p>Click here to go back to the <span>resources</span> page.</p>
         </a>
