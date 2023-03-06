@@ -24,7 +24,7 @@
             </a>
         </div>
         <div id="logo">
-            <a href="acknowledge">
+            <a href="about">
                 <img id=newlogo src="media/new-logo.png">
             </a>
         </div>
@@ -43,8 +43,94 @@
             </a>
         </div>
     </div>
-    <div id="inconvenience">
-        <img src="media/albedoops.png">
+    <div id="firstthing">
+        <img src="media/gal.png">
+        <p>Here's a collection of all the wonderful memories and happy moments I've compiled in the past!</p>
+    </div>
+    <div id="banner">
+        <img src="media/bannergal/pets.png">
+    </div>
+    <div id="pets">
+        <div id="layer">
+            <img src="media/galphoto/pet1.png">
+            <img src="media/galphoto/pet2.png">
+            <img src="media/galphoto/pet3.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pet4.png">
+            <img src="media/galphoto/pet5.png">
+            <img src="media/galphoto/pet6.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pet7.png">
+            <img src="media/galphoto/pet8.png">
+            <img src="media/galphoto/pet9.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pet10.png">
+            <img src="media/galphoto/pept11.png">
+            <img src="media/galphoto/pet12.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pet13.png">
+            <img src="media/galphoto/pet14.png">
+            <img src="media/galphoto/pet15.png">
+        </div>
+    </div>
+    <div id="banner">
+        <img src="media/bannergal/ppl.png">
+    </div>
+    <div id="people">
+        <div id="layer">
+            <img src="media/galphoto/pep1.png">
+            <img src="media/galphoto/pep2.png">
+            <img src="media/galphoto/pep3.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pep4.png">
+            <img src="media/galphoto/pep5.png">
+            <img src="media/galphoto/pep6.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pep7.png">
+            <img src="media/galphoto/pep8.png">
+            <img src="media/galphoto/pep9.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pep10.png">
+            <img src="media/galphoto/pep11.png">
+            <img src="media/galphoto/pep13.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/pep14.png">
+            <img src="media/galphoto/pep15.png">
+            <img src="media/galphoto/pep16.png">
+        </div>
+    </div>
+    <div id="banner">
+        <img src="media/bannergal/art.png">
+    </div>
+    <div id="art">
+        <div id="layer">
+            <img src="media/galphoto/art1.png">
+            <img src="media/galphoto/art2.png">
+            <img src="media/galphoto/art3.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/art4.png">
+            <img src="media/galphoto/art5.png">
+            <img src="media/galphoto/art6.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/art7.png">
+            <img src="media/galphoto/art8.png">
+            <img src="media/galphoto/art9.png">
+        </div>
+        <div id="layer">
+            <img src="media/galphoto/art10.png">
+            <img src="media/galphoto/art11.png">
+            <img src="media/galphoto/art12.png">
+        </div>
     </div>
     <div id=footer>
         <div id=logoround>
@@ -62,7 +148,7 @@
                 <div id=todaright>
                     <a href="gallery"> Gallery </a> <br>
                     <a href="extras"> Extras </a> <br>
-                    <a href="forms"> Forms </a> <br>
+                    <a href="guest/create"> Forms </a> <br>
                     <a href="news"> News </a> <br>
                 </div>
             </div>
@@ -70,7 +156,7 @@
         <div id=form>
             <h4>Got something to say?</h4>
             <p> Tell me all about it through a user information form<span>!</span> Check it out in the link below<span>!</span></p> <br>
-            <a href="emptyform.php">Click Here<span>!</span></a>
+            <a href="guest/create">Click Here<span>!</span></a>
         </div>
         <div id=contact>
             <h4>Contact me<span>!</span></h4>

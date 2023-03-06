@@ -106,9 +106,23 @@ div#rightside img:hover{
     width:7vw;
 }
 
-div#reminder img{
-    width: 77vw;
-    padding-left: 13vw;
+div#firstthing{
+    background-image:url("../media/bantype1.png");
+    background-size: cover;
+    min-height: 35vh;
+    text-align: center;
+    padding-top: 8vh;
+    border-bottom: 8px solid #F7B6BE;
+}
+
+div#firstthing img{
+    width: 38vw;
+    margin-bottom: -3vh;
+}
+
+div#firstthing p{
+    font-family: Cream;
+    font-size: 1.4vw;
 }
 
 div#berry-contain {

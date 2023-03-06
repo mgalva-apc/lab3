@@ -106,10 +106,41 @@ div#rightside img:hover{
     width:7vw;
 }
 
-div#inconvenience img{
+div#firstthing{
+    background-image:url("../media/bantype2.png");
+    background-size: cover;
+    min-height: 35vh;
+    text-align: center;
+    padding-top: 8vh;
+    border-bottom: 8px solid #72B6C2;
+}
+
+div#firstthing img{
+    width: 38vw;
+    margin-bottom: -3vh;
+}
+
+div#firstthing p{
+    font-family: Cream;
+    font-size: 1.4vw;
+}
+
+div#banner img{
     width: 68vw;
     padding-top: 1vw;
     padding-left: 17vw;
+}
+
+div#layer{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin-left: 2vw;
+}
+
+div#layer img{
+    width: 27vw;
+    margin-bottom: 4vh;
 }
 
 div#footer{

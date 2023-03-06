@@ -24,7 +24,7 @@
             </a>
         </div>
         <div id="logo">
-            <a href="acknowledge">
+            <a href="about">
                 <img id=newlogo src="media/new-logo.png">
             </a>
         </div>
@@ -43,8 +43,9 @@
             </a>
         </div>
     </div>
-    <div id="reminder">
-        <img src="media/updatebanner.png">
+    <div id="firstthing">
+        <img src="media/feat.png">
+        <p>Other cool things you can try, along with my tester page and a list of resources!</p>
     </div>
     <div id="berry-contain">
         <div id="berri-leftie">

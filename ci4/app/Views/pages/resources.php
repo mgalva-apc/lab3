@@ -114,7 +114,7 @@
     </div>
     <div id="byme">
         <h3>Made by Me</h3>
-        <p>This section is empty right now, but I'll fill it up in the future!</p>
+        <p>All images displayed in the Gallery page belong and were made or taken by me. Similarly, the portraits for the "goddess" and "bea" in the Interests page were also drawn by me.</p>
     </div>
     <div id="special-tenks">
         <h3>Special Thanks for The Help!</h3>

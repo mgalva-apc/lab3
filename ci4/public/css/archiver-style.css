@@ -21,7 +21,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../media/berry-bg.png");
+    background-image: url("../media/alt-bg.png");
     overflow-x: hidden;  
 }
 
@@ -106,189 +106,187 @@ div#rightside img:hover{
     width:7vw;
 }
 
-div#content1{
+div#firstthing{
+    background-image:url("../media/bantype1.png");
+    background-size: cover;
+    min-height: 35vh;
+    text-align: center;
+    padding-top: 8vh;
+    border-bottom: 8px solid #F7B6BE;
+}
+
+div#firstthing img{
+    width: 38vw;
+    margin-bottom: -3vh;
+}
+
+div#firstthing p{
+    font-family: Cream;
+    font-size: 1.4vw;
+}
+
+div#ribbon1{
+    z-index: -3;
+    background-color: rgba(203, 161, 230, 0.50);
+    min-height: 25vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 108vh;
+    left: 0vw;
+}
+
+div#ribbon2{
+    z-index: -3;
+    background-color: rgba(161, 204, 230, 0.50);
+    min-height: 25vh;
+    min-width: 100vw;
+    position: absolute;
+    top: 195vh;
+    left: 0vw;
+}
+
+div#content {
+    min-height: 100vh;
+}
+
+
+div#goddess-stuff{
+    display: none;
+    gap: 3vw;
+    min-height: 100vh;
+    cursor: pointer;
+    margin-bottom: -15vh;
+}
+
+div#bea-stuff{
+    display: none;
+    gap: 3vw;
+    min-height: 100vh;
+    cursor: pointer;
+    margin-bottom: -15vh;
+}
+
+.goddess{
+    width: 33vw;
+    height: auto;
+    position: absolute;
+    top: 82vh;
+    left: 15vw;
+}
+
+.bea{
+    width: 31vw;
+    height: auto;
+    position: absolute;
+    top: 74vh;
+    left: 15vw;
+}
+
+.god-title{
+    display: none;
+    cursor: pointer;
+}
+
+.god-title img{
+    width: 33vw;
+    position: absolute;
+    top: 85vh;
+    right: 15vw;
+}
+
+.god-texboxx{
+    width: 33vw;
+    position: absolute;
+    top: 82vh;
+    right: 15vw;
+    font-family: Cream;
+    display: none;
+    cursor: pointer;
+}
+
+.god-texboxx img{
+    width: 40vw;
+}
+
+.bea-texboxx{
+    width: 33vw;
+    position: absolute;
+    top: 82vh;
+    right: 15vw;
+    font-family: Cream;
+    display: none;
+    cursor: pointer;
+}
+
+.bea-title{
+    display: none;
+    cursor: pointer;
+}
+
+.bea-title img{
+    width: 35vw;
+    position: absolute;
+    top: 85vh;
+    right: 15vw;
+}
+
+.bea-texboxx img{
+    width: 40vw;
+}
+
+.basictext{
     display: flex;
-    justify-content:center;
-    margin-top: 2%;
-    gap: 1vw;
+    gap: 5vw;
+    position: absolute;
+    top: 21vh;
+    right: -1vw;
+    max-height: 30vh;
+    width: 30vw;
+    font-size: 1vw;
 }
 
-div#portrait{
-    float:left;
+.basictext p{
+    margin-bottom: -2vh;
 }
 
-div#portrait img{
-    width:35vw;
-    object-fit: cover;
+.commentinfo{
+    background-color: white;
+    border-radius: 2px;
+    min-height: 6vh;
+    position: absolute;
+    top: 44vh;
+    right: -5vw;
+    width: 35vw;
+    height: 25vh;
+    border-radius: 25px;
+    font-size: 0.95vw;
+    padding-left: 0.50vw;
+    padding-right: 0.50vw;
 }
 
-div#berry-rightcontent{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5%;
-    width:45vw;
+div#instructions{
+    background-color: white;
+    font-family: Cream;
+    Color: purple;
+    min-height: 5vh;
+    width: 45vw;
+    font-size: 1.7vw;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 28vw;
 }
 
-div#berrydesc{
-    float:right;
-    background-image:url("../media/header-bg.png");
-    padding-top:2px;
-    line-height:0px;
-    height:9vw;
+div#education-stuff{
+    height: 75vh;
 }
 
-div#berrydesc h2{
-    font-family:'LocalBrewerySans';
-    color:black;
-    text-align:left;
-    font-size:5vw;
-    font-weight:bold;
-}
-
-div#berrydesc h4{
-    font-family:'LocalBrewerySans';
-    color:black;
-    text-align:left;
-    font-style:italic;
-    font-size:1.8vw;
-}
-
-div#berry-info{
-    word-wrap:break-word;
-    background-color:blanchedalmond;
-    font-family:'LocalBrewerySans';
-    font-size: 1.3vw;
-    height:12vw;
-}
-
-div#berry-info span{
-    font-family:'Arial';
-}
-
-div#berry-aileen {
-    font-family:'Cabriole';
-    font-size: 1.38vw;
-    word-wrap:break-word;
-    text-align:center;
-    background-color:rgba(255, 255, 255,0.5);
-    margin-top: 1%;
-}
-
-div#berry-aileen span{
-    font-family: 'Arial';
-}
-
-div#berry-aileen p#aileen{
-    font-size: 0.8vw;
-}
-
-div#contentExtra{
-    margin-top: 4vw;
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-    margin-bottom: 3vw;
-    text-align:justify;
-}
-
-div#contentExtra span{
-    font-family: 'Arial';
-}
-
-div#berry-header1 {
-    font-family: 'LocalBrewerySans';
-    font-weight: bold;
-    font-size: 3.6vw;
-    padding-left: 2vw;
-    background-image:url("../media/header-bg.png");
-}
-
-div#berry-archiver {
-    background-color:blanchedalmond;
-    font-family: 'LocalBrewerySans';
-    font-size: 1.3vw;
-    margin-top: -6vw;
-    padding: 0.5vw;
-}
-
-div#content2 {
-    margin-top: 4vw;
-    margin-left: 10.5vw;
-    margin-right: 10.5vw;
-    margin-bottom: 3vw;
-    font-family:'LocalBrewerySans';
-}
-div#berry-header {
-    font-weight: bold;
-    padding-left: 2vw;
-    background-image:url("../media/header-bg.png");
-}
-
-div#berry-header h2{
-    font-size: 5vw;
-    margin-bottom: -3vw;
-    padding-top: 2vw;
-    font-family:'LocalBrewerySans';
-}
-
-div#berry-full {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    font-size:1.2vw;
-    background-color:blanchedalmond;
-}
-
-div#berry-full span{
-   font-family: 'Arial';
-}
-
-div#full-left {
-    width: 500%;
-    max-width: 500%;
-    line-height: 1.5vw;
-    margin-left: 2vw;
-    margin-top: -0.7vw;
-}
-
-div#full-left li{
-    font-weight:lighter;
-}
-
-div#full-right {
-    width: 500%;
-    max-width: 500%;
-    line-height: 0.5vw;
-}
-
-div#berry-headerAgain{
-    font-weight: bold;
-    padding-left: 2vw;
-    background-image:url("../media/header-bg.png");
-    font-size: 3.5vw;
-    font-family:'LocalBrewerySans';
-    margin-bottom: 1vw;
-}
-
-div#content3 {
-    margin-top: 4vw;
-    margin-left: 14vw;
-    margin-right: 14vw;
-    margin-bottom: 3vw;
-}
-
-div#berry-masteries {
-    display: flex;
-    flex-direction: column;
-    gap: 2.4vw;
-    background-color:blanchedalmond;
-    margin-top: -5vw;
-    padding: 2vw;
-}
-
-div#master-up, div#master-down{
-    display:flex;
-    justify-content:center;
-    gap: 4vw;
+.schoolskill{
+    width: 65vw;
+    position: absolute;
+    top: 165vh;
+    left: 17vw;
+    opacity:0;
+    transition: opacity 1s ease-out;
 }
 
 div#footer-message {

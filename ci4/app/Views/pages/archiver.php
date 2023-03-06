@@ -24,7 +24,7 @@
             </a>
         </div>
         <div id="logo">
-            <a href="acknowledge">
+            <a href="about">
                 <img id=newlogo src="media/new-logo.png">
             </a>
         </div>
@@ -43,78 +43,89 @@
             </a>
         </div>
     </div>
-    <div id="content1">
-        <div id="portrait">
-            <img src="media/berry-pic.png">
-        </div>
-        <div id="berry-rightcontent">
-            <div id="berrydesc">
-                <h2>The Archiver</h2>
-                <h4>Overseer of The Realms and Fate</h4>
-            </div>
-            <div id="berry-info">
-                <ul>
-                    <li><strong>Aliases</strong> <span>-</span> Strawberry Pop<span>,</span> Bea</li>
-                    <li><strong>Age</strong> <span>- 20</span></li>
-                    <li><strong>Birthday</strong> <span>-</span> On the last sabbath day<span>,</span> in the month of forget<span>-</span>me<span>-</span>nots and sapphire<span>,</span> during the year of the water horse</li>
-                    <li><strong>Celestial Number</strong> <span>- '140580'</span></li>
-                </ul>
-            </div>
-        <div id="berry-aileen">
-            <p>Bite back the tears<span>.</span> Only show a smile<span>.</span> The last thing I want is to allow them to feel even a hint of superiority at having caught me in their little scheme<span>.</span></p>
-            <p id="aileen"><i>Aileen Lauren D<span>'</span>autriche <span>(</span>I<span>'</span>m The Villainess So I<span>'</span>m Taming The Final Boss<span>,</span> Vol <span>1.)</span></i></p>
-        </div>
-        </div>
+    <div id="firstthing">
+        <img src="media/arc.png">
+        <p>Who am I exactly and what's with all this archiver stuff? Learn more about me and my journey so far!</p>
     </div>
-    <div id="contentExtra">
-        <div id="berry-header1">
-            <h2>Why Archiver<span>?</span><h2>
-        </div>
-        <div id="berry-archiver">
-            <p>The <span>"</span><strong>Archiver</strong><span>"</span> is a fictional persona created by the website owner<span>,</span> meant to be a <strong>goddess from a fictional world who oversees activity across different worlds, and manipulated fates of interesting people she comes across</strong><span>.</span> The idea was born from the combination of the website owner<span>'</span>s own passion for writing and literature<span>,</span> as well as the results of an online <span>"</span>Vtuber Persona<span>"</span> generator she tried a while back<span>,</span> where she was given the results <span>"</span>Loud<span>,</span> time-travelling blogger<span>".</span></p>
-        </div>
+    <div id="instructions">
+        <p>Click the portrait to change views, and click the title area to view more information.</p>
     </div>
-    <div id="content2">
-        <div id="berry-header">
-            <h2>History and Background<h2>
+    <div id="ribbon1">
+        <p>.</p>
+    </div>
+    <div id="goddess-stuff" class="fade">
+        <div id="left">
+            <img class="goddess" src="media/goddessref.png" onclick="swapPersona(1)">
         </div>
-        <div id="berry-full">
-            <div id="full-left">
-                <h4>Schools Attended<span>:</span><h4>
-                    <ul>
-                        <li>Asia Pacific College <span>(</span>Current, College<span>)</span></li>
-                        <li>School of Saint Anthony <span>(</span>SHS<span>)</span></li>
-                        <li>Quezon City Science High School <span>(</span>JHS<span>)</span></li>
-                        <li>St<span>.</span> Mary<span>'</span>s College of Quezon City <span>(</span>Elementary<span>)</span></li>
-                    </ul>
+        <div id="right">
+            <div class="god-title fade" onclick="swapTitle(0,1)">
+                <img src="media/archiverstuff/archivername.png">
             </div>
-            <div id="full-right">
-                <h4>Current Program<span>:</span></h4>
-                    <ul>
-                        <li>Bachelor of Science in Computer Science <span>-</span> Software and Systems</li>
-                    </ul>
-                <h4>First Choice<span>?:</span> Yes</h4>
-                <h4>Scholarship<span>?:</span> SM Foundation Scholarship <span>( 100%</span> Coverage<span>)</span></h4>
-                <h4>Transferee<span>/</span>Second Course<span>:</span> No</h4>
+            <div class="god-texboxx fade" onclick="swapTitle(0,0)">
+                <img src="media/archiverstuff/archiverbox.png">
+                <div class="basictext">
+                    <div class="onleft">
+                        <p><strong>Aliases:</strong></p>
+                        <ul>
+                            <li>Strawberry Pop</li>
+                            <li>"Bea"</li>
+                        </ul>
+                        <p><strong>Age:</strong>2??</p>
+                    </div>
+                    <div class="onright">
+                        <p><strong>Birthday:</strong>On the last sabbath day, in the month of forget-me-nots and sapphire, during the year of the water horse</p>
+                        <p><strong>Celestial Number:</strong>140580</p>
+                    </div>
+                </div>
+                <div class="commentinfo">
+                    <p>The "Archiver" is a fictional persona created by the website owner, meant to be a goddess from a fictional world who oversees activity across different worlds, and manipulated fates of interesting people she comes across. The idea was born from the combination of the website owner's own passion for writing and literature, as well as the results of an online "Vtuber Persona" generator she tried a while back, where she was given the results "Loud, time-travelling blogger".</p>
+                </div>
             </div>
         </div>
     </div>
-    <div id="content3">
-        <div id="berry-headerAgain">
-            <h2>Technical Masteries<h2>
+    <div id="bea-stuff" class="fade">
+        <div id="right">
+            <img class="bea" src="media/archiverpngs.png" onclick="swapPersona(0)">
         </div>
-        <div id="berry-masteries">
-            <div id="master-up">
-                <img src="media/java.png" width="150vw">
-                <img src="media/github.png" width="150vw">
-                <img src="media/mlsa.png" width="150vw">
+        <div id="right">
+            <div class="bea-title fade" onclick="swapTitle(1,1)">
+                <img src="media/archiverstuff/beaname.png">
             </div>
-            <div id="master-down">
-                <img src="media/python.png" width="150vw">
-                <img src="media/azure.png" width="150vw">
+            <div class="bea-texboxx fade" onclick="swapTitle(1,0)">
+                <img src="media/archiverstuff/beabox.png">
+                <div class="basictext">
+                    <div class="onleft">
+                        <p><strong>Nicknames:</strong></p>
+                        <ul>
+                            <li>Bianca</li>
+                            <li>Alliyah</li>
+                            <li>Maria</li>
+                            <li>"Boils-down"</li>
+                            <li>Bea</li>
+                        </ul>
+                    </div>
+                    <div class="onright">
+                        <p><strong>Age:</strong>20</p>
+                        <p><strong>Birthday:</strong>September 29, 2XXX</p>
+                        <p><strong>Student Number:</strong>2021-140580</p>
+                        <p><strong>Course:</strong>BS in Computer Science - Software and Systems</p>
+                    </div>
+                </div>
+                <div class="commentinfo">
+                    <p>Hello, annyeong! I'm Bea, and I'm just your regular everyday no sleep CS student! I hope you find my website nice ehehe. I had a lot of fun putting this together so I hope the experience for you can be equally as fun. </p>
+                </div>
             </div>
         </div>
     </div>
+    <div id="ribbon2">
+        <p>.</p>
+    </div>    
+    <div id="education-stuff">
+        <img class="schoolskill" src="media/skillschool/elem.png">
+        <img class="schoolskill" src="media/skillschool/jhs.png">
+        <img class="schoolskill" src="media/skillschool/shs.png">
+        <img class="schoolskill" src="media/skillschool/col.png">
+    </div>    
     <div id="footer-message">
         <h4>"Be crazy! But learn how to be crazy without being the center of attention. Be brave enough to live different."</h4>
         <p>Paolo Coelho</p>
@@ -135,7 +146,7 @@
                 <div id=todaright>
                     <a href="gallery"> Gallery </a> <br>
                     <a href="extras"> Extras </a> <br>
-                    <a href="forms"> Forms </a> <br>
+                    <a href="guest/create"> Forms </a> <br>
                     <a href="news"> News </a> <br>
                 </div>
             </div>
@@ -143,7 +154,7 @@
         <div id=form>
             <h4>Got something to say?</h4>
             <p> Tell me all about it through a user information form<span>!</span> Check it out in the link below<span>!</span></p> <br>
-            <a href="emptyform.php">Click Here<span>!</span></a>
+            <a href="guest/create">Click Here<span>!</span></a>
         </div>
         <div id=contact>
             <h4>Contact me<span>!</span></h4>
@@ -151,5 +162,6 @@
             <p id=webprog>WEBPROG<span>(2022-2023)</span></p>
         </div>
     </div>
+    <script src="javascript/archiver-script.js"></script>
 </body>
 </html>

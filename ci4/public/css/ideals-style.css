@@ -106,6 +106,25 @@ div#rightside img:hover{
     width:7vw;
 }
 
+div#firstthing{
+    background-image:url("../media/bantype2.png");
+    background-size: cover;
+    min-height: 35vh;
+    text-align: center;
+    padding-top: 8vh;
+    border-bottom: 8px solid #72B6C2;
+}
+
+div#firstthing img{
+    width: 38vw;
+    margin-bottom: -3vh;
+}
+
+div#firstthing p{
+    font-family: Cream;
+    font-size: 1.4vw;
+}
+
 div#banner-bg{
     margin-left:3vw;
     margin-right:3vw;

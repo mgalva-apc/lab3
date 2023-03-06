@@ -21,38 +21,38 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../media/berry-bg.png");
-    font-family: Cream;
-    font-size: 1.5vw; 
+    background-image: url("../media/alt-bg.png");
+    overflow-x: hidden;
+    font-family: Cream; 
+    font-size: 1.2vw;
 }
 
-div#backtonarnia {
-    background-color: rgba(90,41,154,0.5);
-}
-
-div#backtonarnia a{
-    display:flex;
-    text-decoration: none;
-    border-bottom: 3px darkblue solid;
-}
-
-div#backtonarnia a p{
-    font-family: 'LocalBrewerySans';
-    font-size: 2vw;
-    font-weight: bold;
-    color:black;
-    padding-top: 1vw;
-}
-
-div#backtonarnia img{
-    width: 8vw;
-}
-
-div#sakoku img{
-    width: 45vw;
-    padding-top: 1vw;
-}
-
-div#sakoku{
+div#thanks{
     text-align: center;
+}
+
+div#thanks img{
+    width: 38vw;
+}
+
+div#thankyou{
+    text-align: center;
+    background-color: rgba(251, 254, 254, 0.75);
+    border-radius: 25px;
+    width: 65vw;
+    height:auto;
+    margin-left: 17vw;
+}
+
+div#returnthis{
+    text-align: center;
+}
+
+div#returnthis img{
+    margin-top: -17vh;
+    width: 35vw;
+}
+
+div#returnthis img:hover{
+    width: 37vw;
 }

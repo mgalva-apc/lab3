@@ -24,7 +24,7 @@
             </a>
         </div>
         <div id="logo">
-            <a href="acknowledge">
+            <a href="about">
                 <img id=newlogo src="media/new-logo.png">
             </a>
         </div>
