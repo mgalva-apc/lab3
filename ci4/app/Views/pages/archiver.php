@@ -48,7 +48,7 @@
         <p>Who am I exactly and what's with all this archiver stuff? Learn more about me and my journey so far!</p>
     </div>
     <div id="instructions">
-        <p>Click the portrait to change views, and click the title area to view more information.</p>
+        <p>Click the girl's picture on the left to change views, and click the title area to view more information.</p>
     </div>
     <div id="ribbon1">
         <p>.</p>

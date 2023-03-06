@@ -268,12 +268,15 @@ div#instructions{
     background-color: white;
     font-family: Cream;
     Color: purple;
-    min-height: 5vh;
+    max-height: 12vh;
     width: 45vw;
     font-size: 1.7vw;
-    border-radius: 15px;
+    border: 5px solid purple;
+    border-radius: 30px;
     text-align: center;
     margin-left: 28vw;
+    margin-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 div#education-stuff{
